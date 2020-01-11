@@ -37,4 +37,28 @@
  */
 
 
+// A function that prints the statistics of an array including minimum, maximum, mean, and median.
+void print_statistics(unsigned char * arr, int len);
+
+// Given an array of data and a length, prints the array to the screen
+void print_array(unsigned char * arr, int len);
+
+// Given an array of data and a length, returns the median value
+int find_median(unsigned char * arr, int len);
+
+// Given an array of data and a length, returns the mean
+int find_mean(unsigned char * arr, int len);
+
+// Given an array of data and a length, returns the maximum
+int find_maximum(unsigned char * arr, int len);
+
+// Given an array of data and a length, returns the minimum
+int find_minimum(unsigned char * arr, int len);
+
+// Given an array of data and a length, sorts the array from largest to smallest. 
+// (The zeroth Element should be the largest value, and the last element (n-1) 
+// should be the smallest value. )
+void sort_array(unsigned char * arr, int len);
+
+
 #endif /* __STATS_H__ */
