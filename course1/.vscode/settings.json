@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "stats.h": "c",
+        "platform.h": "c",
+        "memory.h": "c",
+        "course1.h": "c",
+        "stdint.h": "c",
+        "cstdio": "cpp"
+    }
+}
